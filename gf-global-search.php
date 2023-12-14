@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gravity Forms Global Search
  * Description: Adds a global search feature to search across all Gravity Forms entries.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Johnathon Williams
  * Author URI: https://glug.blog
  */
