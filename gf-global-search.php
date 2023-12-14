@@ -5,6 +5,7 @@
  * Version: 1.0.1
  * Author: Johnathon Williams
  * Author URI: https://glug.blog
+ * GitHub Plugin URI: https://github.com/bozzmedia/gf-global-search/
  */
 
 // Check if Gravity Forms is active
