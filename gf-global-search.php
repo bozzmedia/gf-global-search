@@ -12,7 +12,7 @@ if (class_exists('GFForms')) {
     add_action('admin_menu', 'gf_global_search_menu_item', 11);
 
     function gf_global_search_menu_item() {
-        add_submenu_page('gf_edit_forms', __('Global Search', 'gravityforms'), __('Global Search', 'gravityforms'), 'manage_options', 'gf_global_search', 'gf_global_search_page');
+        add_submenu_page('gf_edit_forms', __('Global Search', 'gravityforms'), __('Global Search', 'gravityforms'), 'gravityforms_view_entries', 'gf_global_search', 'gf_global_search_page');
     }
 
     function gf_global_search_page() {
