@@ -16,7 +16,7 @@ if (class_exists('GFForms')) {
     }
 
     function gf_global_search_page() {
-        if (!current_user_can('manage_options')) {
+        if (!current_user_can('gravityforms_view_entries')) {
             wp_die(__('You do not have sufficient permissions to access this page.'));
         }
 
